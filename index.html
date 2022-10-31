@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+        <div class="name">
+            Your name: <span></span>
+        </div>
+
+        <span class="over">Game Over</span>
+
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+
+        <div class="git">
+            Right Tries: <span>0</span>
+        </div>
+    </div>
+
+    <div class="memory-game-blocks">
+        <div class="game-block" data-tech="one">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-01.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="one">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-01.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="two">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-02.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="two">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-02.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="three">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-03.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="three">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-03.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="four">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-04.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="four">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-04.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="five">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-05.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="five">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-05.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="six">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-06.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="six">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/gallery-06.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="seven">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/7.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="seven">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/7.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="eight">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/8.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="eight">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/8.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="nine">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/9.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="nine">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/9.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="ten">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/10.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-tech="ten">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/10.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <audio class="right" src="sounds/Right_Card.mp3" preload="auto"></audio>
+    <audio class="wrong" src="sounds/Wrong_Card.mp3" preload="auto"></audio>
+    <audio class="flip" src="sounds/Flip_Card.mp3" preload="auto"></audio>
+    <audio class="g-over" src="sounds/Game_Over.mp3" preload="auto"></audio>
+    <audio class="win" src="sounds/Seccuss_Piano.mp3" preload="auto"></audio>
+
+    <script src="4th.js"></script>
+    <!-- <script src="3rd.js"></script> -->
+    <!-- <script src="2nd.js"></script> -->
+    <!-- <script src="main.js"></script> -->
+</body>
+
+</html>
