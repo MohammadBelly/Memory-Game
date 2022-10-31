@@ -93,7 +93,7 @@ function checkBlocks(firstBlock, secondBlock) {
       document.querySelector(".wrong").play();
     }, duration);
 
-    if (tries.innerHTML === "120") {
+    if (tries.innerHTML === "12") {
       setTimeout(() => {
         blocksCont.classList.add("game-over");
         let over = document.querySelector(".over");
